@@ -1,0 +1,74 @@
+footer{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+footer > section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+footer > aside{
+    height: 60px;
+    background-color: #383838;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer > section > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+footer > section > article > h2, footer > section > article > a{
+    color: white;
+    font-size: 14px;
+    margin: 5px 0px;
+    width: 100%;
+    text-align: left;
+}
+footer > section > article > h2{
+    font-size: 18px;
+}
+
+@media(max-width: 999px){
+    footer > section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width: 799px){
+    footer > section > article > h2, footer > section > article > a{
+        font-size: 10px;
+    }
+    footer > section > article > h2{
+        font-size: 14px;
+    }
+}
+@media(max-width: 599px){
+    footer > section{
+        flex-direction: column;
+    }
+    footer > section > article > h2, footer > section > article > a{
+        font-size: 12px;
+    }
+    footer > section > article > h2{
+        font-size: 18px;
+    }
+    footer > section > article {
+        margin-bottom: 10px;
+    }
+}

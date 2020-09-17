@@ -1,0 +1,256 @@
+#Servicios{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding:40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 1400px;
+}
+
+.servicios{
+    position: relative;
+    width: 100%;
+    background-color: #F8F9FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding:50px 20px;
+}
+
+.servicios > h1,.servicios > h1 > b{
+    font-size: 32px;
+    text-align: center;
+    z-index: 3;
+}
+.servicios > h1 > b{
+    font-family: "Poppins-Bold";
+    font-weight: 800;
+}
+.servicios > h3{
+    margin-top: 10px;
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.servicios > section{
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+}
+.servicios > section > section > article{
+    position: relative;
+    background-color: white;
+    box-shadow: 50px 50px 99px #00000029;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin: 0px 0px 40px 0px;
+    padding:40px;
+    width: 100%;
+    z-index: 2;
+}
+.serviciosColumna-1{
+    width: 280px;
+    padding-top: 60px;
+}
+.serviciosColumna-2{
+    width: 500px;
+}
+.serviciosColumna-3{
+    width: 350px;
+    padding-top: 60px;
+}
+
+
+.servicios > section > section > article > div{
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.servicios > section > section > article > div > img{
+    max-height: 100%;
+    max-width: 90px;
+    margin-right: 20px;
+}
+.servicios > section > section > article > div > h2{
+    font-size: 22px;
+    max-width: 140px;
+}
+
+.servicios > section > section > article > p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.servicios > section > section > article > button{
+    margin-top: 20px;
+    font-family: "Poppins-Bold";
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 20px 30px #00001D24;
+}
+.serviciosBotonAzul{
+    background-color: #0400E9;
+}
+.serviciosBotonRojo{
+    background-color: #BF0811;
+}
+.serviciosBotonAzul:hover,.serviciosBotonRojo:hover{
+    background-color: #000000;
+}
+
+.serviciosBack1{
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    left: -50px;
+    top: 100px;
+    background-image: url(../img/Backgrounds/forma_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.serviciosBack2{
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    right: -50px;
+    top: 600px;
+    background-image: url(../img/Backgrounds/forma_2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+@media(max-width: 1399px){
+    .servicios > section{
+        width: 1050px;
+    }
+    .serviciosColumna-1{
+        width: 300px;
+    }
+    .serviciosColumna-2{
+        width: 380px;
+    }
+    .serviciosColumna-3{
+        width: 350px;
+    }
+}
+@media(max-width: 1199px){
+    #Servicios{
+        padding:0px;
+    }
+    .servicios{
+        width: 100%;
+        padding:40px;
+    }
+    .servicios > section{
+        width: 100%;
+    }
+    .serviciosColumna-1{
+        width: 270px;
+    }
+    .serviciosColumna-2{
+        width: 330px;
+    }
+    .serviciosColumna-3{
+        width: 320px;
+    }
+}
+@media(max-width: 1039px){
+    .servicios > section > section > article > div{
+        height: 40px;
+    }
+    .servicios > section > section > article > div > img{
+        max-height: 100%;
+        max-width: 70px;
+        margin-right: 10px;
+    }
+    .servicios > section > section > article > div > h2{
+        font-size: 16px;
+        max-width: 110px;
+    }
+
+    .servicios > section > section > article > p{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .serviciosColumna-1{
+        width: 260px;
+    }
+    .serviciosColumna-2{
+        width: 260px;
+    }
+    .serviciosColumna-3{
+        width: 260px;
+    }
+}
+@media(max-width: 899px){
+    .servicios > section{
+        flex-direction: column;
+    }
+    .serviciosColumna-1, .serviciosColumna-2, .serviciosColumna-3{
+        width: 100%;
+    }
+    .servicios > section > section > article > div{
+        height: 80px;
+    }
+    .servicios > section > section > article > div > img{
+        max-height: 100%;
+        max-width: 120px;
+        margin-right: 10px;
+    }
+    .servicios > section > section > article > div > h2{
+        font-size: 26px;
+        max-width: 150px;
+    }
+
+    .servicios > section > section > article > p{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+@media(max-width: 639px){
+    .servicios > h3{
+        width: 100%;
+    }
+    .servicios > section > section > article > div{
+        height: 60px;
+    }
+    .servicios > section > section > article > div > img{
+        max-height: 100%;
+        max-width: 100px;
+        margin-right: 10px;
+    }
+    .servicios > section > section > article > div > h2{
+        font-size: 22px;
+        max-width: 120px;
+    }
+
+    .servicios > section > section > article > p{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,14 @@
+<svg id="forma_3" data-name="forma 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="889" height="966" viewBox="0 0 889 966">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_592" data-name="Rectángulo 592" width="889" height="966" transform="translate(0 3258)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.265" y1="0.541" x2="0.449" y2="0.959" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf0811"/>
+      <stop offset="1" stop-color="#0400e9"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_6" data-name="Enmascarar grupo 6" transform="translate(0 -3258)" clip-path="url(#clip-path)">
+    <path id="Trazado_10926" data-name="Trazado 10926" d="M321.431,1304.182c16.27-73.49,89.128-151.253,210.616-169.366,204.672-30.574,376.635-103.664,570.06-234.613,206-139.429,612.975-555.869,612.975-555.869,114.165-129.334,255.151-7.155,156.39,154.832,0,0-273.665,489.24-630.8,762.39-318.719,243.783-557.2,300.953-745.253,264.781C370.352,1502.282,304.357,1421.751,321.431,1304.182Z" transform="translate(1367.785 4746.207) rotate(170)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

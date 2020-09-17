@@ -1,0 +1,80 @@
+header{
+    position: relative;
+    width: 100%;
+    min-width: 349px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header > section{
+    position: relative;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+header > section > a, header > section > div > a{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+header > section > a > img, header > section > div > a > img{
+    height: 12px;
+}
+.headerRRSS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 1px solid black;
+}
+.headerWhatsApp{
+    padding-left: 20px;
+}
+.headerSpan{
+    font-size: 10px;
+    margin:0px 5px;
+}
+.headerMailIcon{
+    height: 16px;
+}
+.headerWhatsAppIcon{
+    margin-right: 4px;
+    height: 16px;
+}
+@media(max-width: 499px){
+    header > section{
+        padding: 10px;
+    }
+    header > section > a, header > section > div > a{
+        font-size: 8px;
+    }
+    header > section > a > img, header > section > div > a > img{
+        height: 10px;
+    }
+    .headerRRSS{
+        width: 40px;
+        padding-right: 10px;
+    }
+    .headerWhatsApp{
+        padding-left: 10px;
+    }
+    .headerMailIcon{
+        height: 14px;
+    }
+    .headerWhatsAppIcon{
+        height: 14px;
+    }
+}

@@ -1,0 +1,171 @@
+#Novedades{
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Novedades > h2{
+    font-size: 28px;
+    width: 1300px;
+    text-align: left;
+}
+#Novedades > section{
+    margin-top: 50px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Novedades > section > article{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    box-shadow: 50px 50px 99px #00000029;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+}
+#Novedades > section > article > h3{
+    font-size: 24px;
+}
+#Novedades > section > article > aside{
+    display: none;
+}
+#Novedades > section > article:hover > aside{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Novedades > section > article > aside > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Novedades > section > article > aside > a > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    margin: 0px 30px;
+}
+#Novedades > section > article > aside > a > div > img{
+    margin-right: 10px;
+    height: 40px;
+}
+
+@media(max-width: 1349px){
+    #Novedades{
+        padding: 10px;
+    }
+    #Novedades > h2{
+        width: 90%;
+    }
+    #Novedades > section{
+        margin-top: 50px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    #Novedades > section > article{
+        width: 300px;
+        height: 200px;
+    }
+    #Novedades > section > article > h3{
+        font-size: 24px;
+    }
+    #Novedades > section > article > aside{
+        display: none;
+    }
+    #Novedades > section > article:hover > aside{
+        width: 300px;
+        height: 200px;
+    }
+    #Novedades > section > article > aside > a > div{
+        font-size: 18px;
+    }
+    #Novedades > section > article > aside > a > div > img{
+        height: 30px;
+    }
+}
+@media(max-width: 1039px){
+    
+    #Novedades > section{
+        flex-wrap: wrap;
+    }
+    #Novedades > section > article{
+        width: 90%;
+        height: 250px;
+        margin-bottom: 100px;
+    }
+    #Novedades > section > article:hover > aside{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+.novedadesFondo1{
+    background-image: url(../img/Backgrounds/forma_6.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    width: 350px;
+    height: 500px;
+    top: 100px;
+    z-index: 1;
+}
+.novedadesFondo2{
+    background-image: url(../img/Backgrounds/forma_5.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 540px;
+    top: 500px;
+    z-index: 1;
+}
+@media(max-width: 1099px){
+        
+    .novedadesFondo1{
+        top: 200px;
+        width: 300px;
+        height: 400px;
+    }
+    .novedadesFondo2{
+        top: 600px;
+        width: 200px;
+        height: 300px;
+    }
+}
+@media(max-width: 799px){
+        
+    .novedadesFondo1{
+        top: 200px;
+        width: 200px;
+        height: 300px;
+    }
+    .novedadesFondo2{
+        top: 600px;
+        width: 100px;
+        height: 180px;
+    }
+}

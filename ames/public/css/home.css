@@ -1,0 +1,618 @@
+#Home{
+    position: relative;
+    width: 100%;
+    min-width: 349px;
+    height: calc(100vh - 30px);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.homeSliderContenedor{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-width: 349px;
+    height: calc(100vh - 30px);
+    min-height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeSliderContenedor > article > section{
+    z-index: 2;
+}
+.homeSliderContenedor > article{
+    top:0;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 30px);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.homeSliderContenedor > #homeSlider1{
+    background-image: url(../img/Backgrounds/slide_1.svg);
+    left: 0%;
+    z-index: 1;
+}
+.homeSliderContenedor > #homeSlider2{
+    background-image: url(../img/Backgrounds/slide_2.svg);    
+    left: 100%;
+    z-index: 2;
+}
+.homeSliderContenedor > #homeSlider3{
+    background-image: url(../img/Backgrounds/slide_3.svg);    
+    left: 100%;
+    z-index: 3;
+}
+.homeSliderContenedor > article > aside{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 30px);
+    min-height: 600px;
+    background-image: url(../img/Backgrounds/formas_slide_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.homeSliderContenedor > #homeSlider1 > aside{
+    background-image: url(../img/Backgrounds/formas_slide_1.svg);
+}
+.homeSliderContenedor > #homeSlider2 > aside{
+    background-image: url(../img/Backgrounds/formas_slide_2.svg);
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 500px;
+}
+.homeSliderContenedor > #homeSlider2 > aside > img{
+    position: absolute;
+    width: 600px;
+    right: -80px;
+    bottom:-50px;
+}
+.homeSliderContenedor > #homeSlider3 > aside{
+    bottom: 0px;
+    left: 0px;
+    background-image: url(../img/Backgrounds/formas_slide_3.svg);
+}
+.homeSliderContenedor > #homeSlider2 > img{
+    background-image: url(../img/Backgrounds/formas_slide_2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.homeSliderContenedor > #homeSlider1 > img{
+    margin-top: -50px;
+    width: 45%;
+    z-index: 2;
+    min-height: 450px;
+    max-height: calc(100vh - 250px);
+}
+.homeSliderContenedor > article > section{
+    z-index: 3;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+
+.homeSliderContenedor > article > section > h1{
+    font-family: "Poppins-Bold";
+    font-size: 68px;
+    width: 800px;
+    color: white;
+}
+.homeSliderContenedor > article > section > h3{
+    font-family: "Poppins-Light";
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.homeSliderContenedor > article> section > h3 > b{
+    font-family: "Poppins-Light";
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+.homeSliderContenedor > article> section > button{
+    font-family: "Poppins-Bold";
+    margin-top: 40px;
+    font-size: 16px;
+    color: #0400E9;
+    background-color: white;
+    padding:12px 60px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.404);
+    cursor: pointer;
+}
+.homeSliderContenedor > article> section > button:hover{
+    background-color: rgb(201, 201, 201);
+}
+
+.homeSliderStatus{
+    position: absolute;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    margin-left: -35px;
+    bottom: 40px;
+    z-index: 8;
+}
+.homeSliderStatus > div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.homeSliderStatus > div:hover{
+    background-color: rgb(201, 201, 201);
+}
+#homeSliderStatus1{
+    background-color: blue;
+}
+
+#homeSlider3{
+    justify-content: center;
+    padding-right: 0px;
+}
+#homeSlider3 > section{
+    text-align: center;
+    padding-left: 0px;
+}
+#homeSlider3 > section > h1{
+    width: 1100px;
+    text-align: center;
+}
+#homeSlider3 > section > h3{
+    width: 1100px;
+    text-align: center;
+}
+#homeSlider3 > div{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+#homeSlider3 > div > img{
+    height: 100%;
+}
+
+
+@media(max-width: 1599px){
+    .homeSliderContenedor > article > section > h1{
+        font-size: 58px;
+        width: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        min-height: 600px;
+    }
+    #Home{
+        height: calc(100vh - 30px);
+        min-height: 700px;
+    }
+    .homeSliderContenedor{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 700px;
+    }
+}
+
+@media(max-width: 1399px){    
+    .homeSliderContenedor > article > section > h1{
+        font-size: 46px;
+        width: 550px;
+    }
+    .homeSliderContenedor > article > section > h3{
+        font-size: 18px;
+    }
+    .homeSliderContenedor > article> section > h3 > b{
+        font-size: 18px;
+    }
+    #homeSlider3 > section > h1, #homeSlider3 > section > h3{
+        width: 800px;
+    }
+}
+
+@media(max-width: 1299px){   
+    .homeSliderContenedor > article > section > h1{
+        font-size: 58px;
+        width: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        position: absolute;
+        right: 50px;
+        width: 700px;
+        min-height: auto;
+        max-height: 500px;
+        top: 400px;
+    }
+    #Home{
+        min-height: 900px;
+    }
+    .homeSliderContenedor{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 46px;
+        width: 550px;
+    }
+    .homeSliderContenedor > article > section > h3{
+        font-size: 18px;
+    }
+    .homeSliderContenedor > article> section > h3 > b{
+        font-size: 18px;
+    }
+    
+    #homeSlider3 > div {
+        height: 350px;
+    }
+    #homeSlider3 > aside{
+        min-height: 700px;
+    }
+}
+
+@media(max-width: 1039px){   
+    .homeSliderContenedor > article > section{
+        padding-left: 50px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 58px;
+        width: 740px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        position: absolute;
+        right: 50px;
+        width: 550px;
+        min-height: auto;
+        max-height: 400px;
+        top: 500px;
+    }
+    #Home{
+        min-height: 900px;
+    }
+    .homeSliderContenedor{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 900px;
+    }
+
+    .homeSliderContenedor > #homeSlider2 > aside{
+        width: 100%;
+        height: auto;
+    }
+    .homeSliderContenedor > #homeSlider2 > aside > img{
+        width: 500px;
+    }
+    
+    
+    #homeSlider3 > section > h1{
+        width: 700px;
+        font-size: 45px;
+    }
+    #homeSlider3 > section > h3{
+        width: 700px;
+    }
+    #homeSlider3 > aside{
+        min-height: 700px;
+        background-position: right;
+    }
+    #homeSlider3 > div {
+        height: 350px;
+    }
+}
+
+
+@media(max-width: 839px){
+    .homeSliderContenedor > article {
+        padding-top: 150px;
+        padding-right: 0px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        width: 600px;
+        min-height: auto;
+        max-height: 500px;
+        top: 500px;
+    }
+    #Home{
+        min-height: 900px;
+    }
+    .homeSliderContenedor{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 900px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 45px;
+        width: calc(100% - 50px);
+    }
+    .homeSliderContenedor > article > section > h3{
+        font-size: 18px;
+    }
+    .homeSliderContenedor > article> section > h3 > b{
+        font-size: 18px;
+    }
+
+    
+    #homeSlider3 > section > h1{
+        width: 600px;
+        font-size: 36px;
+    }
+    #homeSlider3 > section > h3{
+        width: 600px;
+    }
+    #homeSlider3 > aside{
+        min-height: 650px;
+    }
+    #homeSlider3 > div {
+        height: 300px;
+    }
+}
+@media(max-width: 779px){
+    #homeSlider3 > section > h1{
+        width: 600px;
+        font-size: 36px;
+    }
+    #homeSlider3 > section > h3{
+        width: 600px;
+    }
+    #homeSlider3 > aside{
+        min-height: auto;
+        max-height: 240px !important;
+        height: 240px !important;
+        background-position: left;
+    }
+    #homeSlider3 > div {
+        height: 300px;
+    }
+}
+
+@media(max-width: 639px){
+    .homeSliderContenedor > article {
+        padding-top: 150px;
+        padding-right: 0px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        width: 500px;
+        min-height: auto;
+        max-height: 500px;
+        top: 500px;
+        right: 50%;
+        margin-right: -250px;
+    }
+    #Home{
+        min-height: 800px;
+    }
+    .homeSliderContenedor{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 35px;
+        width: calc(100% - 50px);
+    }
+    .homeSliderContenedor > article > section > h3{
+        box-sizing: border-box;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+    .homeSliderContenedor > article> section > h3 > b{
+        font-size: 18px;
+    }
+    .homeSliderContenedor > #homeSlider2 > aside > img{
+        width: 380px;
+    }
+    
+    #homeSlider3 > section > h1{
+        width: 100%;
+        font-size: 26px;
+    }
+    #homeSlider3 > section > h3{
+        width: 100%;
+    }
+    #homeSlider3 > aside{
+        min-height: auto;
+        max-height: 240px !important;
+        height: 240px !important;
+        background-position: left;
+    }
+    #homeSlider3 > div {
+        height: 200px;
+    }
+}
+
+@media(max-width: 539px){
+    .homeSliderContenedor > article {
+        padding-top: 150px;
+        padding-right: 0px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        width: 90%;
+        min-height: auto;
+        max-height: 500px;
+        top: 500px;
+        right: 5%;
+        margin-right: 0px;
+    }
+    #Home{
+        min-height: 800px;
+    }
+    .homeSliderContenedor{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 800px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 28px;
+        width: calc(100% - 50px);
+    }
+    .homeSliderContenedor > article > section > h3{
+        box-sizing: border-box;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+    .homeSliderContenedor > article> section > h3 > b{
+        font-size: 18px;
+    }
+    .homeSliderContenedor > #homeSlider2 > aside > img{
+        width: 350px;
+    }
+    #Home{
+        min-height: 700px;
+    }
+    .homeSliderContenedor{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > article > section > h1{
+        font-size: 24px;
+    }
+    .homeSliderContenedor > article > section > h3{
+        font-size: 14px;
+    }
+    .homeSliderContenedor > article > section > h3 > b{
+        font-size: 14px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        top: 450px;
+    }
+    
+    #homeSlider3 > section > h1{
+        width: 100%;
+        padding:0px;
+        font-size: 24px;
+    }
+    #homeSlider3 > section > h3{
+        width: 100%;
+        padding:0px;
+    }
+    #homeSlider3 > aside{
+        min-height: auto;
+        max-height: 240px !important;
+        height: 240px !important;
+        background-position: left;
+    }
+    #homeSlider3 > div {
+        height: 150px;
+    }
+}
+
+@media(max-width: 425px){
+    
+    #homeSlider3 > section > h1{
+        width: 100%;
+        padding:0px;
+        font-size: 24px;
+    }
+    #homeSlider3 > section > h3{
+        width: 100%;
+        padding:0px;
+    }
+    #homeSlider3 > aside{
+        min-height: auto;
+        max-height: 240px !important;
+        height: 240px !important;
+        background-position: right;
+    }
+    #homeSlider3 > div {
+        height: 150px;
+    }
+}
+
+@media(max-width: 379px){
+    #Home{
+        min-height: 700px;
+    }
+    .homeSliderContenedor{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > article{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > aside{
+        min-height: 700px;
+    }
+    .homeSliderContenedor > #homeSlider1 > img{
+        top: 480px;
+    }
+    .homeSliderContenedor > #homeSlider2 > aside > img{
+        width: 300px;
+    }
+    #homeSlider3 > section > h1{
+        width: 100%;
+        padding:0px;
+        font-size: 24px;
+    }
+    #homeSlider3 > section > h3{
+        width: 100%;
+        padding:0px;
+    }
+    #homeSlider3 > aside{
+        min-height: auto;
+        max-height: 240px !important;
+        height: 240px !important;
+        background-position: right;
+    }
+    #homeSlider3 > div {
+        height: 100px;
+    }
+}

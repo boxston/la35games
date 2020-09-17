@@ -1,0 +1,25 @@
+<svg id="formas_background_slide_2" data-name="formas background slide 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919.979" height="963.047" viewBox="0 0 1919.979 963.047">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.008" x2="0.5" y2="0.064" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a434d4"/>
+      <stop offset="0.404" stop-color="#a232d2"/>
+      <stop offset="1" stop-color="#371995"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_291" data-name="Rectángulo 291" width="1919.979" height="963.047" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.842" y1="0.344" x2="0.163" y2="1.165" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf0811"/>
+      <stop offset="1" stop-color="#0400e9"/>
+      <stop offset="1" stop-color="#5a4dff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.745" y1="1.148" x2="0.134" y2="0.026" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0400e9"/>
+      <stop offset="1" stop-color="#bf0811"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_3" data-name="Enmascarar grupo 3" clip-path="url(#clip-path)">
+    <path id="Trazado_1931" data-name="Trazado 1931" d="M189.353,91.718c-27.8,158.307-53.864,286.838-317.166,334.078s-492.961,60.7-673.255,233.7-138.18,305.577-119.678,356.215S248.22,1030.825,278.176,979.021,189.353,91.718,189.353,91.718Z" transform="translate(1729.142 16.072)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_1932" data-name="Trazado 1932" d="M-452.631,300.267c-105.591-35.5-314.625-14.189-418.936,95.839s-89.021,277.814-66.714,330.006,513.469-38.881,539.156-107.173S-452.631,300.267-452.631,300.267Z" transform="translate(2505.706 332.346)" opacity="0.28" fill="url(#linear-gradient-3)" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>

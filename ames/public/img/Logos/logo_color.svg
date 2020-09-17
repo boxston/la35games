@@ -1,0 +1,30 @@
+<svg id="logo_color" data-name="logo color" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216.768" height="51.095" viewBox="0 0 216.768 51.095">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="3.361" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0400e9"/>
+      <stop offset="0.126" stop-color="#0700e4"/>
+      <stop offset="0.262" stop-color="#1200d7"/>
+      <stop offset="0.402" stop-color="#2501c2"/>
+      <stop offset="0.546" stop-color="#3f02a4"/>
+      <stop offset="0.691" stop-color="#61037d"/>
+      <stop offset="0.839" stop-color="#8a054d"/>
+      <stop offset="0.986" stop-color="#b90716"/>
+      <stop offset="1" stop-color="#bf0811"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.834" y1="0.5" x2="1.694" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-3.228" y1="0.5" x2="1.009" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-5.027" y1="0.5" x2="-0.113" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <circle id="Elipse_85" data-name="Elipse 85" cx="5.808" cy="5.808" r="5.808" transform="translate(15.289 29.332)" fill="#bf0811"/>
+  <circle id="Elipse_86" data-name="Elipse 86" cx="5.808" cy="5.808" r="5.808" transform="translate(32.958 13.947)" fill="#0400e9"/>
+  <circle id="Elipse_87" data-name="Elipse 87" cx="5.808" cy="5.808" r="5.808" transform="translate(11.222 6.669)"/>
+  <g id="Grupo_2234" data-name="Grupo 2234" transform="translate(54.61 6.614)">
+    <path id="Trazado_10918" data-name="Trazado 10918" d="M163.355,123.648h-14.6l-2.339,6.908h-9.971L150.6,91.45h11.031l14.15,39.107H165.7Zm-7.3-21.67L151.267,116.3H160.9Z" transform="translate(-136.449 -91.45)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_10919" data-name="Trazado 10919" d="M225.059,114.057c0-4.067-2.339-6.295-5.958-6.295s-5.961,2.228-5.961,6.295v16.879h-9.471V114.057c0-4.067-2.34-6.295-5.959-6.295s-5.961,2.228-5.961,6.295v16.879h-9.526V99.852h9.526v3.9a10.966,10.966,0,0,1,9.079-4.235c4.681,0,8.468,2.062,10.586,5.795a12.5,12.5,0,0,1,10.472-5.795c7.687,0,12.646,4.9,12.646,13.259v18.16h-9.472Z" transform="translate(-138.605 -91.83)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_10920" data-name="Trazado 10920" d="M257.851,131.376c-9.135,0-15.709-6.127-15.709-15.988S248.6,99.4,257.851,99.4c9.08,0,15.486,6.017,15.486,15.487a24.266,24.266,0,0,1-.167,2.785H251.612c.334,4.066,2.841,5.96,5.9,5.96a5.068,5.068,0,0,0,4.96-3.007h10.138C271.109,126.7,265.6,131.376,257.851,131.376Zm-6.183-19h11.921c0-3.4-2.674-5.348-5.848-5.348A5.892,5.892,0,0,0,251.668,112.38Z" transform="translate(-141.428 -91.825)" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_10921" data-name="Trazado 10921" d="M292.705,131.376c-8.3,0-13.872-4.623-14.317-10.64H287.8c.223,2.173,2.173,3.621,4.791,3.621,2.452,0,3.731-1.114,3.731-2.507,0-5.013-16.933-1.392-16.933-12.813,0-5.291,4.512-9.638,12.644-9.638,8.022,0,12.479,4.458,13.091,10.585h-8.8c-.278-2.116-1.893-3.509-4.568-3.509-2.227,0-3.453.891-3.453,2.4,0,4.958,16.823,1.448,16.992,13.036C305.295,127.309,300.5,131.376,292.705,131.376Z" transform="translate(-143.136 -91.825)" fill="url(#linear-gradient-4)"/>
+  </g>
+  <path id="Trazado_10922" data-name="Trazado 10922" d="M129.5,97.819a3.626,3.626,0,0,1-3.858-1.32,19.935,19.935,0,0,0-7.59-5.377c-3.441-1.5-12.034-3.334-12.034-3.334-2.57-.413-2.15-3.2.714-3.244,0,0,8.445-.455,14.81,1.9,5.681,2.1,8.333,4.679,9.389,7.37C131.627,95.6,131.133,97.089,129.5,97.819Z" transform="translate(-80.325 -84.509)" fill="#0400e9"/>
+  <path id="Trazado_10923" data-name="Trazado 10923" d="M100.842,133.7a3.627,3.627,0,0,1,3.178-2.556,19.942,19.942,0,0,0,8.6-3.54c3.108-2.1,9.25-8.388,9.25-8.388,1.723-1.951,3.851-.108,2.36,2.337,0,0-4.13,7.381-9.518,11.5-4.81,3.679-8.409,4.541-11.247,4C101.58,136.688,100.584,135.473,100.842,133.7Z" transform="translate(-80.16 -86.105)" fill="#bf0811"/>
+  <path id="Trazado_10924" data-name="Trazado 10924" d="M85.482,90.967a3.628,3.628,0,0,1,.767,4,19.93,19.93,0,0,0-.908,9.257c.4,3.732,3.07,12.1,3.07,12.1.916,2.437-1.71,3.451-3.171.988,0,0-4.582-7.109-5.7-13.8-.993-5.974-.068-9.557,1.746-11.806C82.5,90.216,84.037,89.907,85.482,90.967Z" transform="translate(-79.139 -84.783)" fill="#211915"/>
+</svg>

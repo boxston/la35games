@@ -1,0 +1,74 @@
+    
+    @font-face {
+        font-family: "Poppins-Black";
+        src: url("../Tipografia/Poppins-Black.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-BlackItalic";
+        src: url("../Tipografia/Poppins-BlackItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Bold";
+        src: url("../Tipografia/Poppins-Bold.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-BoldItalic";
+        src: url("../Tipografia/Poppins-BoldItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-ExtraBold";
+        src: url("../Tipografia/Poppins-ExtraBold.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-ExtraBoldItalic";
+        src: url("../Tipografia/Poppins-ExtraBoldItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-ExtraLight";
+        src: url("../Tipografia/Poppins-ExtraLight.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-ExtraLightItalic";
+        src: url("../Tipografia/Poppins-ExtraLightItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Italic";
+        src: url("../Tipografia/Poppins-Italic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Light";
+        src: url("../Tipografia/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-LightItalic";
+        src: url("../Tipografia/Poppins-LightItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Medium";
+        src: url("../Tipografia/Poppins-Medium.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-MediumItalic";
+        src: url("../Tipografia/Poppins-MediumItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Regular";
+        src: url("../Tipografia/Poppins-Regular.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-SemiBold";
+        src: url("../Tipografia/Poppins-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-SemiBoldItalic";
+        src: url("../Tipografia/Poppins-SemiBoldItalic.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-Thin";
+        src: url("../Tipografia/Poppins-Thin.ttf");
+    }
+    @font-face {
+        font-family: "Poppins-ThinItalic";
+        src: url("../Tipografia/Poppins-ThinItalic.ttf");
+    }
+    

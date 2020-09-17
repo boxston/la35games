@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(218, 0, 0);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding:10px 20px;
+    box-shadow: 0px 2px 5px black;
+}
+header > img{
+    height: 70px;
+}
+
+nav{
+    margin-left: 30px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+nav > ul > li{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+nav > ul > li:hover{
+    color: white;
+}
+
+nav > ul > li:hover > ul{
+    display: block;
+}
+
+nav > ul > li > ul{
+    display: none;
+    position: absolute;
+    background-color: red;
+    box-sizing: border-box;
+    padding:10px 20px;
+}
+
+.tabla{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabla > article{
+    margin-top: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.tabla > article > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabla > article > div > img{
+    height: 40px;
+}
+.tabla > article > div > h2{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.izq, .der{
+    width: 190px;
+}

@@ -1,0 +1,16 @@
+<svg id="forma_5" data-name="forma 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="549" height="988" viewBox="0 0 549 988">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_594" data-name="Rectángulo 594" width="549" height="988" transform="translate(1371 7529)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.605" y1="0.053" x2="0.644" y2="0.933" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf0811"/>
+      <stop offset="1" stop-color="#0400e9"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_8" data-name="Enmascarar grupo 8" transform="translate(-1371 -7529)" clip-path="url(#clip-path)">
+    <g id="forma_5-2" data-name="forma 5" transform="translate(994.947 7948.369) rotate(-40)">
+      <path id="Trazado_10802" data-name="Trazado 10802" d="M165.041,621.587c24.417,240.249,397.085,664.653,647.206,639.76s282.982-489.661,258.566-729.91S823.84,116.618,573.719,141.51,140.625,381.342,165.041,621.587Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
