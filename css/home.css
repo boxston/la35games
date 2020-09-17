@@ -57,3 +57,31 @@ h1{
 .banner > article > button:hover{
     background: rgb(77, 1, 77);
 }
+
+.redes{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes > article {
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+.redes > article > h2, .fa-instagram-square, .fa-discord, .fa-twitter-square, .fa-facebook-square {
+    color: white !important;
+    font-size: 22px;
+}
+.redes > article > h2{
+    margin-right: 30px;
+}
+.fa-instagram-square, .fa-discord, .fa-twitter-square, .fa-facebook-square{
+    margin-left: 15px;
+}
