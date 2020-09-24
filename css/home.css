@@ -85,3 +85,150 @@ h1{
 .fa-instagram-square, .fa-discord, .fa-twitter-square, .fa-facebook-square{
     margin-left: 15px;
 }
+
+/* 24/09/2020 */
+
+.destacadas{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px 0px;
+    position: relative;
+    background-image: url(../img/bg/destacada.png);
+    background-repeat: repeat;
+}
+.destacadas > aside{
+    position: absolute;
+    left: -40px;
+    font-size: 12px;
+    transform: rotate(-90deg);
+}
+.destacadas > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.artDestacado{
+    display: flex;
+    position: relative;
+    width: 360px;
+    cursor: pointer;
+}
+
+.artDestacadoImg{
+    width: 126px;
+    height: 126px;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.artDestacadoImg > img {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.artDestacadoImg:hover > img{
+    max-width: 126px;
+    max-height: 126px;
+}
+.artDestacado > aside {
+    position: absolute;
+    width: 350px;
+    height: 146px;
+    background-color: rgba(255, 255, 255, 0.452);
+    z-index: 1;
+    top: -10px;
+    left: 10px;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.artDestacadoDetalle{
+    box-sizing: border-box;
+    padding: 20px 15px;
+    z-index: 2;
+}
+.artDestacadoDetalle > h6{
+    color: #ccc;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.artDestacadoDetalle > h4{
+    font-size: 20px;
+}
+.artDestacadoDetalle > p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.torneoActual{
+    margin-top: 50px;
+    background-color: rgba(212, 212, 212, 0.075);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 0px;
+
+    box-sizing: border-box;
+    padding: 50px 0px;
+}
+
+.torneoActualRow1{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.torneoActualRow1 > h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.torneoActualRow1 > h2{
+    font-size: 62px;
+    font-weight: 600;
+}
+.torneoActualRow1 > p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btnFixture{
+    appearance: none;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    width: 140px;
+    height: 25px;
+    background-color: rgb(255, 166, 0);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 12px rgba(88, 88, 88, 0.39);
+}
+
+.btnParticipa{ 
+    appearance: none;
+    border: none;
+    text-decoration: none;
+    background: none;
+
+    width: 140px;
+    height: 25px;
+    background-color: rgb(2, 200, 207);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 12px rgba(88, 88, 88, 0.39);
+}
